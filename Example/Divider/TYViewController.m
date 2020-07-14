@@ -7,7 +7,7 @@
 //
 
 #import "TYViewController.h"
-
+#import <Divider/Divider-umbrella.h>
 @interface TYViewController ()
 
 @end
@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    testView.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:testView];
+    
+    [testView drawBottomLineByHeight:3 color:[UIColor redColor]];
+    
 }
 
 - (void)didReceiveMemoryWarning

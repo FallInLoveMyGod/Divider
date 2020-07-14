@@ -1,0 +1,6 @@
+framework module Divider {
+  umbrella header "Divider-umbrella.h"
+
+  export *
+  module * { export * }
+}
