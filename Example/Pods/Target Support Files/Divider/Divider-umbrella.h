@@ -11,6 +11,11 @@
 #endif
 
 #import "UIColor+HexString.h"
+#import "UIImage+Color.h"
+#import "UIImage+Extension.h"
+#import "UIImage+QRCode.h"
+#import "UIImage+Resize.h"
+#import "UIImage+SubImage.h"
 #import "UIView+DrawLine.h"
 
 FOUNDATION_EXPORT double DividerVersionNumber;

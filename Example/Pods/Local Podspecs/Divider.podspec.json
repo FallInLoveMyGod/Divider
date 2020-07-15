@@ -1,7 +1,7 @@
 {
   "name": "Divider",
   "version": "0.0.1",
-  "summary": "A short description of Divider.",
+  "summary": "在view 控件上下左右添加分割线",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/FallInLoveMyGod/Divider",
   "license": {
@@ -16,9 +16,11 @@
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Divider/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Divider_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Divider_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ExampleVersionString[];
 
