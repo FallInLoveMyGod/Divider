@@ -18,12 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Divider/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "source_files": "Divider/Classes/**/**/**/*",
+  "public_header_files": "Pod/Classes/**/**/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
     ]
-  }
+  },
+  "static_framework": true
 }
