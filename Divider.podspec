@@ -30,14 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Divider/Classes/**/*'
+  s.source_files = 'Divider/Classes/**/**/**/*'
   
   # s.resource_bundles = {
   #   'Divider' => ['Divider/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/**/**/*.h'
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Masonry', '~> 1.1.0'
+  s.static_framework = true
 end
