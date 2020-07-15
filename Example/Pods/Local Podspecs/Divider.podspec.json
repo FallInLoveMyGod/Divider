@@ -23,7 +23,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [
-
+      "~> 1.1.0"
     ]
   }
 }
