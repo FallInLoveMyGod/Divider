@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Divider-umbrella.h>
+
 @interface ViewController ()
 
 @end
@@ -22,6 +23,13 @@
        [self.view addSubview:testView];
        
        [testView drawBottomLineByHeight:3 color:[UIColor redColor]];
+    
+    TMViewController *n = [TMViewController new];
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self presentViewController:[TMViewController new] animated:true completion:nil];
 }
 
 

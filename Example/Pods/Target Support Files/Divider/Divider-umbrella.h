@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TMViewController.h"
 #import "UITextView+Placeholder.h"
 #import "UIColor+HexString.h"
 #import "UIControl+FixMultiClick.h"
