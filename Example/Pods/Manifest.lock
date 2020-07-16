@@ -1,5 +1,5 @@
 PODS:
-  - Divider (0.0.1):
+  - Divider (0.0.2):
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Divider: 08b5379a36fef698f4be27f4dbc0116da9c0dce4
+  Divider: de83f105b2828c161b24c40dbff243d356ae6b02
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: f888446315792b9e020377881b6c23de96c3e3ed

@@ -11,6 +11,7 @@
 #endif
 
 #import "UIColor+HexString.h"
+#import "UIControl+FixMultiClick.h"
 #import "UIImage+Color.h"
 #import "UIImage+Extension.h"
 #import "UIImage+QRCode.h"
