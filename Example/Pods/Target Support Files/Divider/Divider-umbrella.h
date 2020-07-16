@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UITextView+Placeholder.h"
 #import "UIColor+HexString.h"
 #import "UIControl+FixMultiClick.h"
 #import "UIImage+Color.h"

@@ -1,6 +1,6 @@
 {
   "name": "Divider",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "summary": "在view 控件上下左右添加分割线",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/FallInLoveMyGod/Divider",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/FallInLoveMyGod/Divider.git",
-    "tag": "0.0.2"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "9.0"
